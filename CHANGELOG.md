@@ -46,6 +46,9 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 * New `ByteString` template type for things like file content.
 
+* New `remotes.<name>.fetch-bookmarks`/`fetch-tags` options to [configure
+  default fetch targets.](docs/config.md#default-bookmarks-and-tags-to-fetch)
+
 ### Fixed bugs
 
 * Improving consistency with `git` handling of `.gitignore`, including `/`
